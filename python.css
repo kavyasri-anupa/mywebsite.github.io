@@ -1,0 +1,68 @@
+h1{
+	text-align: center;
+	font-family: "Comic Sans MS",cursive,sans-serif;
+	
+}
+#main{
+	
+	width: 400px;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+}
+#imgs{
+	position: relative;
+	width: 1200px;
+	animation-name: slideshow;
+	animation-duration: 18s;
+	animation-iteration-count: infinite;
+
+}
+#imgs img{
+	float: left;
+}
+@keyframes slideshow{
+	0%{
+		left:0px;
+	}
+	28%{
+		left: 0px;
+	}
+	33%{
+		left: -400px;
+	}
+	61%{
+		left: -400px;
+	}
+	66%{
+		left: -800px;
+	}
+	94%{
+		left: -800px;
+	}
+	100%{
+		left: -1200px;
+	}
+	
+}
+h2{
+	background-color:Coral;
+	font-family: "Comic Sans MS",cursive,sans-serif;
+}
+.intro{
+	font-size: 20px;
+	font-family: "Comic Sans MS",cursive,sans-serif;
+}
+.Button{
+	font-size: 18px;
+	background: #ADD8E6;
+}
+.python{
+	animation: colorchange 2s infinite;
+}
+@keyframes colorchange{
+	
+	0%{color: #E6E6FA;}
+	50%{color: #808080;}
+	100%{color:black;}
+}
